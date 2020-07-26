@@ -1,0 +1,123 @@
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+background: white;
+width: 100%;
+overflow: hidden;
+}
+
+.btn-menu-class{
+    display:none;
+    
+}
+
+.menu-class{
+  
+    
+    background: rgb(248, 255, 250);
+    z-index:1000 ;
+    max-width: 1000px;
+    width: 95%;
+    margin:20px auto;
+}
+.titulo-class{
+    
+    border: 2px solid yellow;
+    
+}
+
+.menu-class ul{
+list-style: none;
+}
+
+
+.menu-class ul li{
+
+    display: inline-block;
+    position: relative;
+}
+
+.menu-class ul li:hover{
+background: rgba(109, 71, 71, 0.5);
+}
+
+.menu-class ul li a{
+    color:black;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu-class ul li a span{
+    margin-right: 10px;
+}
+
+
+
+
+.menu-class ul li:hover .children{
+display: block;
+}
+
+
+.menu-class ul li .children{
+    display: none;
+    background: rgb(127, 129, 127);
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+.menu-class ul li .children li{
+    display: block;
+    border-bottom:1px solid rgba(255,255,255,0.5) ;
+overflow: hidden;
+}
+
+.menu-class ul li .children li a{
+    display: block;
+}
+
+.menu-class ul li .children li a span{
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.menu-class ul li .flecha{
+    position: relative;
+    top: 3px;
+    margin-left:10px ;
+    margin-right:0;
+}
+
+
+
+
+main{
+clear: both;
+background-image:url("../img/header.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+opacity: 0.5;
+width: 100%;
+overflow: hidden;
+
+}
+
+footer{
+
+    background: lightcoral;
+    
+}

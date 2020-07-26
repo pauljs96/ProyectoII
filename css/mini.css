@@ -1,0 +1,60 @@
+body{
+padding-top: 80px;    
+}
+
+.btn-menu-class{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgb(197, 119, 167);
+}
+
+.btn-menu-class .btn-menu{
+    display: block;
+    padding: 20px;
+    color:black;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-menu-class span{
+    float: right;
+    font-size: 40px;
+}
+
+.menu-class{
+width: 80%;
+height: calc(100%-80px);
+position: fixed;
+right: 100%;
+margin: 0;
+overflow: hidden;
+
+}
+
+.menu-class ul li{
+display: block;
+border-bottom:1px solid rgba(255, 255, 255, 0.5) ;
+}
+
+.menu-class ul li a{
+    display: block;
+    }
+.menu-class ul li:hover .children{
+    display:none;
+}    
+
+.menu-class ul li .children{
+       width: 100%;
+       position: relative;
+    }
+.menu-class ul li .children li a{
+        margin-left: 20px;
+     }
+
+.menu-class ul li .flecha{
+       float: right;
+     }     
