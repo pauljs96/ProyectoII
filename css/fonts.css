@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ow4ynz');
-  src:  url('fonts/icomoon.eot?ow4ynz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ow4ynz') format('truetype'),
-    url('fonts/icomoon.woff?ow4ynz') format('woff'),
-    url('fonts/icomoon.svg?ow4ynz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6d1gdk');
+  src:  url('fonts/icomoon.eot?6d1gdk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6d1gdk') format('truetype'),
+    url('fonts/icomoon.woff?6d1gdk') format('woff'),
+    url('fonts/icomoon.svg?6d1gdk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,8 +31,20 @@
 .icon-images:before {
   content: "\e90e";
 }
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
 .icon-phone:before {
   content: "\e942";
+}
+.icon-calendar:before {
+  content: "\e953";
 }
 .icon-gift:before {
   content: "\e99f";
@@ -69,4 +81,10 @@
 }
 .icon-twitter:before {
   content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-yelp:before {
+  content: "\ead7";
 }

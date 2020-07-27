@@ -2,6 +2,7 @@ body{
 padding-top: 80px;    
 }
 
+/* Diseño de la sección menu */
 .btn-menu-class{
     display: block;
     width: 100%;
@@ -27,12 +28,12 @@ padding-top: 80px;
 
 .menu-class{
 width: 80%;
-height: calc(100%-80px);
+height: calc(100% - 80px);
 position: fixed;
 right: 100%;
 margin: 0;
-overflow: hidden;
-
+overflow: scroll;
+text-align: left;
 }
 
 .menu-class ul li{
@@ -58,3 +59,10 @@ border-bottom:1px solid rgba(255, 255, 255, 0.5) ;
 .menu-class ul li .flecha{
        float: right;
      }     
+
+/*Diseño del título*/
+
+     .titulo-class{
+        width: 90%;
+        margin-left:5%;
+        }
